@@ -1,8 +1,9 @@
 module.exports = {
     title: '只会番茄炒蛋', // 左上角标题
     description: 'VuePress Blog 的网站描述', // 网站描述, 用来SEO
-    // dest: 'dist', // dest默认值为.vuepress/dist，配置它可以显示的帮助我们设置打包文件的输出目录
+    dest: 'dist', // dest默认值为.vuepress/dist，配置它可以显示的帮助我们设置打包文件的输出目录
     // 其它配置
+    base: '/vuePressBlog/',
     themeConfig: {
       repo: 'https://github.com/wangtunan/blog', // nav最后一个GitHub链接
       repoLabel: 'Github',
