@@ -32,19 +32,20 @@ module.exports = {
           {
             title: '2.CSS',
               children: [
-                '/note/html/1.HTML和HTML5' // 以docs为根目录来查找文件 
+                '/note/html/1.HTML和HTML5'
               ]
           },
           {
             title: '3.JavaScript',
               children: [
-                ['/note/javascript/1.javascript入门笔记', 'JavaScript基础笔记'] // 以docs为根目录来查找文件 
+                ['/note/javascript/1.javascript入门笔记', 'JavaScript基础笔记']
               ]
           },
           {
             title: '4.Vue',
               children: [
-                ['/note/vue/1.vue2.0学习笔记', 'Vue2.0学习笔记'] // 以docs为根目录来查找文件 
+                ['/note/vue/1.vue2.0基础学习笔记', 'Vue2.0基础学习笔记'],
+                ['/note/vue/2.vue2.0进阶学习笔记', 'Vue2.0进阶学习笔记']
               ]
           }
         ],
