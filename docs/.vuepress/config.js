@@ -34,6 +34,18 @@ module.exports = {
               children: [
                 '/note/html/1.HTML和HTML5' // 以docs为根目录来查找文件 
               ]
+          },
+          {
+            title: '3.JavaScript',
+              children: [
+                ['/note/javascript/1.javascript入门笔记', 'JavaScript基础笔记'] // 以docs为根目录来查找文件 
+              ]
+          },
+          {
+            title: '4.Vue',
+              children: [
+                ['/note/vue/1.vue2.0学习笔记', 'Vue2.0学习笔记'] // 以docs为根目录来查找文件 
+              ]
           }
         ],
         '/': [
