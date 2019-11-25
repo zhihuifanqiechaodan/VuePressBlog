@@ -41,14 +41,14 @@ module.exports = {
           {
             title: '3.JavaScript',
               children: [
-                ['/note/javascript/javascript入门笔记', 'JavaScript基础笔记']
+                '/note/javascript/javascript基础学习笔记'
               ]
           },
           {
             title: '4.Vue',
               children: [
-                ['/note/vue/default', 'Vue2.0基础学习笔记'],
-                ['/note/vue/vue2.0进阶学习笔记', 'Vue2.0进阶学习笔记']
+                '/note/vue/vue2.0基础学习笔记',
+                '/note/vue/vue2.0进阶学习笔记'
               ]
           }
         ],
