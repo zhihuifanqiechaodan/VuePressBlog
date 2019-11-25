@@ -2,6 +2,8 @@ module.exports = {
     title: '只会番茄炒蛋', // 左上角标题
     description: '高宇的个人网站，记录生活的瞬间，分享学习的心得，感悟生活，留住感动，静静寻觅生活的美好', // 网站描述, 用来SEO
     dest: 'dist', // dest默认值为.vuepress/dist，配置它可以显示的帮助我们设置打包文件的输出目录
+    port: 8080,
+    host: '127.0.0.1',
     head: [
       ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
