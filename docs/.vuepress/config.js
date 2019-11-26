@@ -43,7 +43,8 @@ module.exports = {
           {
             title: '3.JavaScript',
               children: [
-                '/note/javascript/javascript基础学习笔记'
+                '/note/javascript/javascript基础学习笔记',
+                '/note/javascript/javascript进阶学习笔记'
               ]
           },
           {
