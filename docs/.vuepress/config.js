@@ -31,13 +31,14 @@ module.exports = {
           {
             title: '1.HTML',
               children: [
-                '/note/css/test' // 以docs为根目录来查找文件 
+                '/note/html/html基础学习笔记',
+                '/note/html/html5基础学习笔记'
               ]
           },
           {
             title: '2.CSS',
               children: [
-                '/note/html/1.HTML和HTML5'
+                '/note/css/test'
               ]
           },
           {
