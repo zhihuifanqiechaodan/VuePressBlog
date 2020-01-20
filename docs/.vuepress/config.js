@@ -39,6 +39,7 @@ module.exports = {
             '/note/vue/使用阿里iconfont图标',
             '/note/vue/使用富文本',
             '/note/vue/导出Excel',
+            '/note/vue/axios的应用及封装',
           ]
         },
         {
@@ -61,6 +62,13 @@ module.exports = {
           title: 'TypeScript',
           children: [
             '/note/typescript/入门TypeScript'
+          ]
+        },
+        {
+          title: 'Node',
+          children: [
+            '/note/node/入门级别的接口',
+            '/note/node/入门级别的爬虫'
           ]
         },
         {
