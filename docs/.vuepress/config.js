@@ -8,7 +8,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   // 其它配置
-  base: '/vuePressBlog/',
+  base: '/',
   themeConfig: {
     repo: 'https://github.com/zhihuifanqiechaodan', // nav最后一个GitHub链接
     repoLabel: 'Github',
