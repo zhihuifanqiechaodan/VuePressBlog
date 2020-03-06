@@ -7,9 +7,17 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
+  theme: 'reco',
   // 其它配置
   base: '/',
   themeConfig: {
+    // 备案
+    record: '京ICP备18034129号',
+    recordLink: 'http://www.beian.miit.gov.cn/',
+    // cyberSecurityRecord: '公安部备案文案',
+    // cyberSecurityLink: '公安部备案指向链接',
+    // 项目开始时间，只填写年份
+    startYear: '2019',
     repo: 'https://github.com/zhihuifanqiechaodan', // nav最后一个GitHub链接
     repoLabel: 'Github',
     nav: [
