@@ -1,4 +1,11 @@
-# Jenkins自动打包部署vue项目
+---
+title: Jenkins自动打包部署vue项目
+date: 2019-10-05
+categories:
+ - Serve
+tags:
+ - Serve
+---
 
 `Jenkins是直接部署到阿里云服务器ECS上的, 服务器系统:  CentOS  7.2 64位`
 
