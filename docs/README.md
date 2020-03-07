@@ -3,7 +3,7 @@ home: true
 lang: zh-CN
 heroText: 只会番茄炒蛋
 tagline: 前端图书馆(GY的个人学习笔记)
-heroImage: https://github.com/zhihuifanqiechaodan/gif-demo/blob/master/images/jpg4.jpg?raw=true
+heroImage: /logo.jpg
 actionText: Get Started →
 actionLink: /home/
 features:
