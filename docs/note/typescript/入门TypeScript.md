@@ -1,4 +1,11 @@
-# 入门TypeScript
+---
+title: 入门TypeScript
+date: 2019-07-19
+categories:
+ - TypeScript
+tags:
+ - TypeScript
+---
 
 ## TypeScript是什么？
 TypeScript 是一种由微软开发的自由和开源的编程语言。它是 JavaScript 的一个超集，TypeScript 在 JavaScript 的基础上添加了可选的静态类型和基于类的面向对象编程。
