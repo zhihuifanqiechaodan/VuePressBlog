@@ -1,4 +1,11 @@
-# Vue中axios的应用及封装
+---
+title: Vue中axios的应用及封装
+date: 2019-03-26
+categories:
+ - Vue
+tags:
+ - Vue
+---
 
 ## 一 概述
 在 vue2.0 项目中， 我们主要通过使用 axios 进行 http 请求。
