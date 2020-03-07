@@ -1,4 +1,11 @@
-# React中使用Redux
+---
+title: React中使用Redux
+date: 2019-09-16
+categories:
+ - React
+tags:
+ - React
+---
 
 ## Redux介绍
 Redux是一个用来管理管理数据状态和UI状态的JavaScript应用工具。随着JavaScript单页应用（SPA）开发日趋复杂，JavaScript需要管理比任何时候都要多的state（状态），Redux就是降低管理难度的。（Redux支持React，Angular、jQuery甚至纯JavaScript）
