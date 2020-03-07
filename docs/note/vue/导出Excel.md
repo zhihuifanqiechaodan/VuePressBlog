@@ -1,6 +1,13 @@
-# Vue中导出Excel
+---
+title: Vue中导出Excel
+date: 2019-04-18
+categories:
+ - Vue
+tags:
+ - Vue
+---
 
-# Excel 导出
+## Excel 导出
 Excel 的导入导出都是依赖于js-xlsx来实现的。
 
 在 js-xlsx的基础上又封装了Export2Excel.js来方便导出数据。
