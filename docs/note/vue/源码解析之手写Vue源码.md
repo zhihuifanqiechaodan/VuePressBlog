@@ -1,4 +1,11 @@
-# Vue源码解析之手写Vue源码
+---
+title: Vue源码解析之手写Vue源码
+date: 2020-01-14
+categories:
+ - Vue
+tags:
+ - Vue
+---
 ## 前言
 现在前端面试Vue中都会问到响应式原理以及如何实现的，如果你还只是简单回答通过Object.defineProperty()来劫持属性可能已经不够了。
 
