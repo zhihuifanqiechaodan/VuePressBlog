@@ -4,6 +4,7 @@ heroImage: /hero_black.png
 bgImageStyle: {
   height: '450px',
 }
+bgImage: '/bg.jpg'
 isShowTitleInHome: false
 heroImageStyle: {
     max-height: 150px,
@@ -11,8 +12,7 @@ heroImageStyle: {
     margin: 5rem auto 0px,
     transition: all 0.25s ease-in-out 0s,
     transform: translateY(0px),
-    opacity: 1,
-    color: rgb(44, 62, 80)
+    opacity: 1
 }
 ---
 <!-- ---
