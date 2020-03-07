@@ -1,4 +1,11 @@
-# React基础学习笔记
+---
+title: React基础学习笔记
+date: 2019-09-05
+categories:
+ - React
+tags:
+ - React
+---
 
 ## React简介
 首先不能否认React.js是全球最火的前端框架(Facebook推出的前端框架)，国内的一二线互联网公司大部分都在使用React进行开发，比如阿里、美团、百度、去哪儿、网易 、知乎这样的一线互联网公司都把React作为前端主要技术栈。
