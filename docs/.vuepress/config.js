@@ -11,6 +11,9 @@ module.exports = {
   // 其它配置
   base: '/',
   themeConfig: {
+    author: 'Gao Yu',
+    authorAvatar: '/author.jpg',
+    // logo: '/favicon.ico',
     // 备案
     record: '京ICP备18034129号',
     recordLink: 'http://www.beian.miit.gov.cn/',
@@ -18,8 +21,20 @@ module.exports = {
     // cyberSecurityLink: '公安部备案指向链接',
     // 项目开始时间，只填写年份
     startYear: '2019',
+     // 博客配置
+     blogConfig: {
+      category: {
+        location: 2,     // 在导航栏菜单中所占的位置，默认2
+        text: '分类' // 默认文案 “分类”
+      },
+      tag: {
+        location: 3,     // 在导航栏菜单中所占的位置，默认3
+        text: 'Tag'      // 默认文案 “标签”
+      }
+    },
     repo: 'https://github.com/zhihuifanqiechaodan', // nav最后一个GitHub链接
     repoLabel: 'Github',
+    icon: 'reco-github',
     nav: [
       { text: '首页', link: '/home/' },
       // {   text: 'HTML', 
@@ -80,7 +95,7 @@ module.exports = {
           ]
         },
         {
-          title: '服务器构建',
+          title: '服务器',
           children: [
             '/note/server/阿里云服务器ECS配置及LAMP环境搭建及配置',
             '/note/server/Jenkins自动打包部署vue项目'
