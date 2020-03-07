@@ -5,8 +5,13 @@ categories:
  - Vue
 tags:
  - Vue
+sidebar: 'auto'
 ---
-## 前言
+# webpack简介
+webpack是一个 模块打包工具，支持所有的打包语法，比如 ES Module、CommonJS、CMD、AMD。初期的webpack是用来模块打包js的，发展到现在，已经可以打包很多种文件类型，比如 css、img 。
+
+优化打包速度最有效的方法就是保持 nodejs 和 webpack 为最新版本
+### 前言
 现在前端面试Vue中都会问到响应式原理以及如何实现的，如果你还只是简单回答通过Object.defineProperty()来劫持属性可能已经不够了。
 
 本篇文章通过学习文档及视频教程`实现手写`一个简易的Vue源码实现数据双向绑定，解析指令等。
