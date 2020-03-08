@@ -5,10 +5,12 @@ categories:
  - Vue
 tags:
  - Vue
-sidebar: 'auto'
 ---
-# webpack简介
-webpack是一个 模块打包工具，支持所有的打包语法，比如 ES Module、CommonJS、CMD、AMD。初期的webpack是用来模块打包js的，发展到现在，已经可以打包很多种文件类型，比如 css、img 。
+:::tip
+了解 Angular 变更检测（ Change Detection ）可以帮助我们避免掉一些陷阱  
+使用 OnPush 策略能够优化我们的应用，极大的提高应用的性能  
+学习并理解它们可以让我们以优雅的方式构建出高效的应用
+:::
 
 优化打包速度最有效的方法就是保持 nodejs 和 webpack 为最新版本
 ### 前言
