@@ -1,10 +1,10 @@
 ---
 home: true
-heroImage: /hero_black.png
+heroImage: https://user-gold-cdn.xitu.io/2020/3/8/170b96c6ca763f02?w=2000&h=821&f=png&s=49351
 bgImageStyle: {
   height: '450px',
 }
-bgImage: '/bg.jpg'
+bgImage: 'https://user-gold-cdn.xitu.io/2020/3/8/170b96affaf1c214?w=716&h=477&f=jpeg&s=42639'
 isShowTitleInHome: false
 heroImageStyle: {
     max-height: 150px,
