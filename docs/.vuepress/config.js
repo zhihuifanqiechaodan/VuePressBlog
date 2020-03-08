@@ -5,14 +5,22 @@ module.exports = {
   port: 8080,
   host: '127.0.0.1',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'theme-color', content: '#000000' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'apple-touch-icon', href: `/icons/apple-touch-icon-152x152.png` }],
+    ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#000000' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icons/msapplication-icon-144x144.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
   // 其它配置
   base: '/',
   themeConfig: {
     author: 'Gao Yu',
-    authorAvatar: '/author.jpg',
+    authorAvatar: 'https://user-gold-cdn.xitu.io/2020/3/8/170b96b1a87729bb?w=716&h=716&f=jpeg&s=55224',
     // logo: '/favicon.ico',
     // 备案
     record: '京ICP备18034129号',
@@ -53,19 +61,20 @@ module.exports = {
     // icon: 'reco-github',
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeLine', icon: 'reco-date' },
+      { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
       { text: 'Resume', link: '/resume/', icon: 'reco-account' },
       {
         text: 'Contact',
         icon: 'reco-message',
         items: [
-          { text: 'Github', link: 'https://github.com/zhihuifanqiechaodan', icon: 'reco-github'},
+          { text: 'Github', link: 'https://github.com/zhihuifanqiechaodan', icon: 'reco-github' },
           { text: 'WeChat', link: '/resume/', icon: 'reco-wechat' },
           { text: '掘金', link: 'https://juejin.im/user/5b613134e51d451986517cc3', icon: 'reco-juejin' },
           { text: '头条', link: 'https://mp.toutiao.com/profile_v3/index', icon: 'reco-toutiao' }
         ]
       },
     ],
+    sidebar: 'auto',
     // sidebar: {
     //   '/note/': [
     //     {
@@ -138,6 +147,14 @@ module.exports = {
     //   apiKey: '<API_KEY>',
     //   indexName: '<INDEX_NAME>'
     // }
+    // valineConfig: {
+    //   appId: 'vfrUFUJkmotIMbDPCakpr0Ek-gzGzoHsz', // your appId
+    //   appKey: 'WygRSyMF3sroGszrCs23ACLe',
+    //   placeholder: '填写邮箱可以收到回复提醒哦！',
+    //   notify: true,
+    //   recordIP: true,
+    //   hideListAccessNumber: true,
+    // },
   },
   markdown: {
     // 显示代码块行号
@@ -149,5 +166,21 @@ module.exports = {
         '@images': '../images'
       }
     }
-  }
+  },
+  plugins: [
+    ['@vuepress/medium-zoom', true],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true,
+      },
+    ],
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-125817360-1',
+      },
+    ],
+  ]
 }
